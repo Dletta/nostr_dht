@@ -1,0 +1,29 @@
+{
+  "name": "nostr_dht",
+  "version": "0.5.0",
+  "description": "A simple library to send data to nostr or listen to it.",
+  "main": "nostr_dht.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dletta/nostr_dht.git"
+  },
+  "keywords": [
+    "nostr",
+    "dht",
+    "keyvalue",
+    "pubsub"
+  ],
+  "author": "Jachen Duschletta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dletta/nostr_dht/issues"
+  },
+  "homepage": "https://github.com/Dletta/nostr_dht#readme",
+  "dependencies": {
+    "@noble/curves": "^1.6.0"
+  }
+}
